@@ -22,17 +22,15 @@
 
 /*End for all buttons*/
 
-/*Styling for hr*/
+/*Styling for line*/
 
-/*hr {
+.line {
 	height: 4px;
-	width: 8vw;
-	margin-left: 45.5vw;
-	border: none;
+	width: 250px;
 	background-color: #4d4646;
-}*/
+}	
 
-/*End for hr*/
+/*End for line*/
 
 /*Styling for Home*/
 
@@ -46,7 +44,7 @@
 	text-align: center;
 }
 
-.home > div > h1, .home > div > h2 {
+h1, h2 {
 	font-family: 'Roboto Mono', monospace;
 }
 
@@ -66,6 +64,10 @@
 
 .aboutMe > div {
 	width: 50vw;
+}
+
+.aboutMe > div > p {
+	font-family: 'Open Sans', sans-serif;
 }
 
 /*End for all About*/
@@ -129,6 +131,19 @@
 .skills {
 	background-color: yellow;
 	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.skills > div > img {
+	width: 750px;
+}
+
+.skills > div > h1 {
+	
 }
 
 /*End for all Skills*/
