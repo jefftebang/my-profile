@@ -1,0 +1,143 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+
+/*Styling for all buttons*/
+
+.btn {
+	padding: 12px 32px;
+	border: 4px solid gray;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.btn-view {
+	text-decoration: none;
+	color: gray;
+	font-size: 20px;
+}
+
+/*End for all buttons*/
+
+/*Styling for hr*/
+
+/*hr {
+	height: 4px;
+	width: 8vw;
+	margin-left: 45.5vw;
+	border: none;
+	background-color: #4d4646;
+}*/
+
+/*End for hr*/
+
+/*Styling for Home*/
+
+.home {
+	background-color: red;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.home > div > h1, .home > div > h2 {
+	font-family: 'Roboto Mono', monospace;
+}
+
+/*End for Home*/
+
+/*Styling for About*/
+
+.aboutMe {
+	background-color: green;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.aboutMe > div {
+	width: 50vw;
+}
+
+/*End for all About*/
+
+/*Styling for Projects*/
+
+.projects {
+	background-color: blue;
+	height: 100vh;
+	text-align: center;
+}
+
+.proj-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 0 150px;
+	padding: 100px 0;
+}
+
+.project1 {
+	background: url(../images/project1.jpg);
+	width: 300px;
+	height: 200px;
+}
+
+.project2 {
+	background: url(../images/project2.jpg);
+	width: 300px;
+	height: 200px;
+}
+
+.project3 {
+	background: url(../images/project3.jpg);
+	width: 300px;
+	height: 200px;
+}
+
+.project4 {
+	background: url(../images/project4.jpg);
+	width: 300px;
+	height: 200px;
+}
+
+.project5 {
+	background: url(../images/project5.jpg);
+	width: 300px;
+	height: 200px;
+}
+
+.project6 {
+	background: url(../images/project6.jpg);
+	width: 300px;
+	height: 200px;
+}
+
+/*End for all Projects*/
+
+/*Styling for SKills*/
+
+.skills {
+	background-color: yellow;
+	height: 100vh;
+}
+
+/*End for all Skills*/
+
+/*Styling for Contact*/
+
+.contact {
+	background-color: brown;
+	height: 100vh;
+}
+
+/*End for all Contact*/
