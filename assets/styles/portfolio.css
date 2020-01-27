@@ -70,7 +70,10 @@ h1, h2 {
 	font-family: 'Open Sans', sans-serif;
 }
 
-/*End for all About*/
+.aboutMe > div > .line {
+	margin-left: 200px;
+}
+/*End for About*/
 
 /*Styling for Projects*/
 
@@ -90,41 +93,53 @@ h1, h2 {
 
 .project1 {
 	background: url(../images/project1.jpg);
+	background-size: cover;
+	background-position: center;
 	width: 300px;
 	height: 200px;
 }
 
 .project2 {
 	background: url(../images/project2.jpg);
+	background-size: cover;
+	background-position: center;
 	width: 300px;
 	height: 200px;
 }
 
 .project3 {
 	background: url(../images/project3.jpg);
+	background-size: cover;
+	background-position: center;
 	width: 300px;
 	height: 200px;
 }
 
 .project4 {
 	background: url(../images/project4.jpg);
+	background-size: cover;
+	background-position: center;
 	width: 300px;
 	height: 200px;
 }
 
 .project5 {
 	background: url(../images/project5.jpg);
+	background-size: cover;
+	background-position: center;
 	width: 300px;
 	height: 200px;
 }
 
 .project6 {
 	background: url(../images/project6.jpg);
+	background-size: cover;
+	background-position: center;
 	width: 300px;
 	height: 200px;
 }
 
-/*End for all Projects*/
+/*End for Projects*/
 
 /*Styling for SKills*/
 
@@ -146,7 +161,7 @@ h1, h2 {
 	
 }
 
-/*End for all Skills*/
+/*End for Skills*/
 
 /*Styling for Contact*/
 
@@ -155,4 +170,4 @@ h1, h2 {
 	height: 100vh;
 }
 
-/*End for all Contact*/
+/*End for Contact*/
