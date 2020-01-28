@@ -18,6 +18,7 @@
 	text-decoration: none;
 	color: gray;
 	font-size: 20px;
+	margin-top: 20px;
 }
 
 /*End for all buttons*/
@@ -26,9 +27,23 @@
 
 .line {
 	height: 4px;
-	width: 250px;
+	width: 60px;
 	background-color: #4d4646;
-}	
+}
+
+.line-about {
+	margin-left: 310px;
+	margin-top: 10px;
+}
+
+.line-proj {
+	margin-left: 640px;
+	margin-top: 15px;
+}
+
+.line-skl {
+	
+}
 
 /*End for line*/
 
@@ -53,7 +68,7 @@ h1, h2 {
 /*Styling for About*/
 
 .aboutMe {
-	background-color: green;
+	/*background-color: green;*/
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
@@ -68,6 +83,7 @@ h1, h2 {
 
 .aboutMe > div > p {
 	font-family: 'Open Sans', sans-serif;
+	margin-top: 15px;
 }
 
 /*End for all About*/
@@ -75,7 +91,7 @@ h1, h2 {
 /*Styling for Projects*/
 
 .projects {
-	background-color: blue;
+	/*background-color: blue;*/
 	height: 100vh;
 	text-align: center;
 }
@@ -85,7 +101,11 @@ h1, h2 {
 	justify-content: center;
 	flex-wrap: wrap;
 	margin: 0 150px;
-	padding: 100px 0;
+	padding: 50px 0;
+}
+
+.projects > div > h1 {
+	padding-top: 30px;
 }
 
 .project1 {
@@ -129,7 +149,7 @@ h1, h2 {
 /*Styling for SKills*/
 
 .skills {
-	background-color: yellow;
+	/*background-color: yellow;*/
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
