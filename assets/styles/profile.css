@@ -18,6 +18,11 @@
 	transition: .4s;
 }
 
+.bton > a {
+	text-decoration: none;
+	color: white;
+}
+
 .btn-view {
 	text-decoration: none;
 	color: white;
@@ -140,14 +145,26 @@ nav {
 	z-index: 100;
 }
 
-nav > ul{
+nav > ul {
 	display: flex;
 	list-style-type: none;
 	color: orange;
 }
 
-nav > ul > li{
+nav > ul > li {
 	margin: 0 20px;
+}
+
+nav > ul > li > a {
+	text-decoration: none;
+	color: #a3f7bf;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+}
+
+nav > ul > li > a:hover {
+	color: white;
 }
 
 /*End for Navigation*/
