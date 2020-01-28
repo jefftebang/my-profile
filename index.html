@@ -16,13 +16,22 @@
 	<!-- Icon -->
     <link rel="icon" type="text/css" href="assets/cam.ico">
 
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- AOS Javascript -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 </head>
 <body>
+	<script>
+  		AOS.init();
+	</script>
 	<!-- Home -->
 	<div class="home" id="home">
 		<div>
-			<h1>Hello, I'm Jeffersson Tebang.</h1>
-			<h2>I'm a Software Engineer.</h2>
+			<h1 data-aos="zoom-in">Hello, I'm Jeffersson Tebang.</h1>
+			<h2 data-aos="zoom-in">I'm a Software Engineer.</h2>
 		</div>
 		<div>
 			<button class="bton btn-view"><a href="#aboutMe">View my work</a></button>
@@ -55,18 +64,18 @@
 			<h1>Projects</h1>
 			<div class="line line-proj"></div>
 			<div class="proj-gall">
-                <div class="proj1 proj"></div>
-                <div class="projt1 proj">
+                <div class="proj1 proj" data-aos="fade-right"></div>
+                <div class="projt1 proj" data-aos="fade-left">
                     <h1><a href="https://fish-eye.gitlab.io/capstone-1/">Capstone 1</a></h1><br>
                     <p>My capstone 1 is all about a photography portfolio. It's construct using HTML and CSS.</p><br>
                 </div>
-                <div class="projt2 proj">
+                <div class="projt2 proj" data-aos="fade-right">
                     <h1>Capstone 2</h1><br>
                     <p>Under construction.</p><br>
                 </div>
-                <div class="proj2 proj"></div>
-                <div class="proj3 proj"></div>
-                <div class="projt3 proj">
+                <div class="proj2 proj"data-aos="fade-left"></div>
+                <div class="proj3 proj" data-aos="fade-right"></div>
+                <div class="projt3 proj" data-aos="fade-left">
                     <h1>Capstone 3</h1><br>
                     <p>Under construction.</p><br>
                 </div>
@@ -74,7 +83,7 @@
 	</div>
 
 	<!-- Skills -->
-	<div class="skills" id="skills">
+	<div class="skills" id="skills" data-aos="flip-right">
 		<div>
 			<h1>Skills</h1>
 			<div class="line line-skl"></div>
@@ -83,7 +92,7 @@
 	</div>
 
 	<!-- Contact -->
-	<div class="contact" id="contact">
+	<div class="contact" id="contact" data-aos="zoom-in">
 		<div>
 			<h1>Contact</h1>
 			<div class="line line-con"></div>
