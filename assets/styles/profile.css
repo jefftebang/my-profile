@@ -223,7 +223,7 @@ nav > ul > li > a:hover {
 }
 
 .proj2 {
-	background: url(../images/uncons.jpg);
+	background: url(../images/proj2.png);
 	background-position: center;
 	background-size: cover;
 	height: 330px;
@@ -299,6 +299,11 @@ nav > ul > li > a:hover {
 }
 
 .projt1 > h1 > a {
+	text-decoration: none;
+	color: #393e46;
+}
+
+.projt2 > h1 > a {
 	text-decoration: none;
 	color: #393e46;
 }
